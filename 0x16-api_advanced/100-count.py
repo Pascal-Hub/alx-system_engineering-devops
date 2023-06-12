@@ -14,11 +14,7 @@ def count_words(subreddit, word_list, after=None, word_counts=None):
         word_counts (int, optional): word counts. Defaults to None.
     """
     url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
-<<<<<<< HEAD
-    headers = {'User-Agent': 'Maleek User Agent 1.0'}
-=======
     headers = {'User-Agent': 'Ayo User Agent 1.0'}
->>>>>>> 0dd3c52c0c1c0c686ff06d4c07f0f19255810e87
     params = {'limit': 100}
     # if there is an after, next page, add it to the params dict
     if after:
